@@ -1,0 +1,47 @@
+.summary {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.seat {
+    margin-bottom: 1rem;
+    margin-left: 1%;
+    line-height: 1px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid rgba(128, 128, 128, 0.51);
+    border-radius: 4px;
+    padding: 10px;
+    width: 50%;
+}
+
+.price {
+    font-weight: bold;
+    color: rgb(0, 77, 18);
+    font-size: 1.3rem;
+}
+
+.seat .title {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.seat .info {
+    text-align: left;
+}
+
+.seat .info .description {
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.598);
+}
+
+.row {
+    font-weight: bold;
+}
+
+.position {
+    font-weight: bold;
+}

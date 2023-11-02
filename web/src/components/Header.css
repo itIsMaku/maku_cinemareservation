@@ -1,0 +1,16 @@
+.header {
+    text-align: left;
+    margin-top: 0;
+    margin-left: 1%;
+    line-height: 1px;
+}
+
+.header .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.movie-name {
+    font-weight: 500;
+}

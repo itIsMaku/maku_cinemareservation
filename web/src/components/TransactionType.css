@@ -1,0 +1,28 @@
+.transactions-properties {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.transaction-property {
+    margin-left: 1%;
+    line-height: 1px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.transaction-property .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.transaction-property .info {
+    text-align: left;
+}
+
+.disabled {
+    opacity: 20%;
+}

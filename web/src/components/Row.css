@@ -1,0 +1,61 @@
+.theatre-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-seats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.row-number {
+    font-size: 0.8rem;
+    font-family: var(--main-font);
+    font-weight: 600;
+    width: 30px;
+}
+
+.theatre-seat {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: rgb(0, 185, 0);
+    color: white;
+    width: 32px;
+    height: 32px;
+    opacity: 70%;
+    font-family: var(--main-font);
+    font-weight: 400;
+}
+
+.theatre-seat:hover {
+    opacity: 100%;
+}
+
+.blank {
+    cursor: default;
+    opacity: 0;
+}
+.blank:hover {
+    opacity: 0;
+}
+
+.reserved {
+    background-color: rgb(49, 49, 49);
+    cursor: not-allowed;
+}
+
+.selected {
+    background-color: rgb(239, 155, 0);
+}
+
+.number {
+    font-size: 0.8rem;
+}
